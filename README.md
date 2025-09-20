@@ -1,118 +1,156 @@
-🌍 Genesis Chain: Turning Education Into Living Worlds
 
-Reality-as-a-Service for Education
-Students don’t just read about knowledge — they step inside it.
 
-✨ Vision
+# 🌍 Genesis Chain – Turning Education Into Living Worlds
 
-Education today is passive, fragile, and centralized. Genesis Chain transforms it into an immersive, decentralized, and permanent learning ecosystem:
+An immersive **Reality-as-a-Service platform** where students step **inside knowledge worlds**, teachers earn **royalties**, and progress is stored **on-chain forever**.
 
-📚 Students explore knowledge as living worlds — stand inside pyramids, talk to Galileo, farm along the Nile.
+🎮 **Demo (Prototype):** \[Coming Soon – Unity Sandbox Build]
+📜 **Genesis NFT Explorer:** \[Placeholder Link – Polygon Testnet]
 
-🎓 Teachers mint Genesis Worlds — earn royalties when reused by others.
+⚠️ *Note: GitHub Pages cannot serve compressed Unity WebGL builds correctly (Brotli/Gzip issue). For the best experience, try the Unity sandbox demo.*
 
-🔗 Blockchain secures learning forever — progress & credentials become NFTs owned by students.
+---
 
-🌐 Schools join a global library of living worlds — knowledge shared, remixed, and owned collectively.
+## 🌟 Features
 
-🚀 How It Works
+✅ AI-powered **Genesis World Builder** (vibe coding → instant 3D world)
 
-World Builder (Vibe Coding)
+✅ Students **explore history, science, math** as immersive simulations
 
-Teachers describe a lesson in plain language.
+✅ **AI NPC guides** (e.g., Galileo teaching gravity experiments)
 
-AI + procedural generation creates a 3D Genesis World instantly.
+✅ Progress minted as **Genesis NFTs** (permanent, tamper-proof)
 
-Student Portal
+✅ **Teacher marketplace** with royalties via smart contracts
 
-Students enter via web/VR/AR.
+✅ Stored on **IPFS/Arweave** for permanence
 
-AI-powered NPCs guide them through challenges.
+---
 
-Progress is tracked automatically.
+## 🕹 How It Works
 
-Genesis NFT Minting
+1. Teacher types: *“Create a world of Newton’s Laws with puzzles on gravity.”*
+2. AI generates an explorable **Genesis World** instantly.
+3. Students enter via web/VR/AR and interact with NPCs.
+4. Student progress → minted as an **NFT badge** stored in their wallet.
+5. Schools & teachers share a **global library of reusable worlds**.
 
-Completing modules mints NFTs recording proof-of-learning.
+---
 
-NFTs stored in wallets → portable across schools and employers.
+## 📂 Repo Structure
 
-Teacher Marketplace
+```
+GenesisChain/
+│
+├── World_Builder/       # AI + Unity sandbox for Genesis Worlds
+│   ├── prototype_build/
+│   ├── scripts/
+│   └── assets/
+│
+├── Student_Portal/      # Web/VR frontend for students
+│   └── npc_agents/
+│
+├── SmartContracts/      # Solidity contracts for NFTs + royalties
+│   ├── GenesisNFT.sol
+│   ├── Marketplace.sol
+│   └── ABI/
+│
+├── Docs/                # Project summary, pitch deck, screenshots
+│
+├── LICENSE              # MIT License
+└── README.md            # You are reading this
+```
 
-Upload, buy, and remix Genesis Worlds.
+---
 
-Smart contracts ensure royalties for creators.
+## 🔗 Smart Contracts
 
-🛠️ Tech Stack
+* **Network:** Polygon Testnet (Mumbai)
+* **Contracts:**
 
-Frontend / World Rendering → Unity + WebXR
+  * `GenesisNFT.sol` → Stores proof-of-learning NFTs
+  * `Marketplace.sol` → Handles royalties for teachers
+* **Features:**
+  ✅ Tamper-proof **learning credentials**
+  ✅ Automatic **royalties for creators**
+  ✅ Portable **NFT-based education passport**
 
-AI World Builder → GPT-5 + Stable Diffusion 3D + procedural generation
+---
 
-Blockchain Layer → Ethereum L2 / Polygon
+## 🚀 Setup for Developers
 
-Smart contracts for NFTs & royalties
+```bash
+git clone https://github.com/YourName/GenesisChain.git
+```
 
-Storage → IPFS / Arweave for permanent assets
+You can modify:
 
-Wallets → MetaMask / WalletConnect integration
+* `World_Builder/` → for AI + Unity world generation
+* `SmartContracts/` → for NFT & royalty logic
+* `Student_Portal/` → for web/VR student interface
 
-Vibe Coding → Natural language → AI-generated code → deployable worlds
+---
 
-🎯 Impact
+## 🔗 Demo Links
 
-Students → Immersive, unforgettable learning
+🎮 **Playable Prototype:** \[Unity Sandbox Build – Coming Soon]
+📜 **NFT Explorer:** \[Polygon Testnet Placeholder]
+▶️ **Demo Video:** \[YouTube link – optional]
 
-Teachers → New revenue stream via royalties
+---
 
-Parents → Transparent proof of real learning
+## 🛠 Built With
 
-Schools → Global library of living modules
+* **Unity + WebXR** – Immersive world rendering
+* **GPT-5 + Stable Diffusion 3D** – AI world generation
+* **Solidity (Polygon)** – Smart contracts for NFTs & royalties
+* **IPFS / Arweave** – Permanent world storage
+* **MetaMask + ethers.js** – Wallet integration
 
-Society → Equal access to lifelong, verifiable education
+---
 
-📌 Current MVP
+## 📈 Future Scope
 
-✅ Basic Genesis World generation (Unity sandbox + AI)
-✅ NFT minting of completed modules
-✅ Teacher → Student flow working
+* Full **Genesis Marketplace** for teachers & schools
+* Multiplayer collaborative learning
+* Advanced AI NPC tutors
+* Global **Education Passport** via NFTs
+* Integration with AR glasses & mobile-first learning
 
-🔮 Roadmap
+---
 
- Expand AI-powered world generation
+## ❓ Why Blockchain for Education?
 
- Full smart contract deployment on Polygon
+* **Ownership** → Students own proof-of-learning forever.
+* **Trust** → Credentials are tamper-proof & verifiable.
+* **Fairness** → Teachers earn royalties globally.
+* **Openness** → A decentralized, remixable **library of worlds**.
 
- Cross-institution NFT credentials (global education passport)
+---
 
- Marketplace for Genesis Worlds
+### ✅ **So you can:**
 
- Mobile & VR support for low-cost devices
+* **Build worlds** with simple prompts
+* **Learn inside knowledge** instead of memorizing it
+* **Mint proof-of-learning NFTs**
+* **Share & remix Genesis Worlds** globally
 
-👥 Team
+---
 
-Vision / Blockchain → Nevan R G
+👥 Team Members
 
-AI/ML → Midhan Raj R
+**Nevan R G** – Vision & Blockchain Lead 🚀
 
-Smart Contracts → Prithiv R
+**Midhan Raj R** – AI world generation & NPC agents 🤖
 
-Education Design → Nishanth B
+**Nishanth B** – Immersive 3D worlds & student portal 🎮
 
-🏆 Hackathon Tracks
+**Prithiv R** – Learning design & engagement 🎓
 
-Primary: NFT & Creator Economy
+---
 
-Secondary: Social Impact & Sustainability
+🔥 *Education has always been about opening new worlds. With Genesis Chain, we mean that literally.*
 
-🌍 Why Now?
+---
 
-AI is powerful enough to build explorable simulations.
 
-Blockchain ensures permanence, ownership, and royalties.
-
-Education urgently needs disruption.
-
-Genesis Chain bridges these forces into the Internet of Living Knowledge.
-
-🔥 Education has always been about opening new worlds. With Genesis Chain, we mean that literally.
