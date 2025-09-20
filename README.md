@@ -95,7 +95,7 @@ You can modify:
 
 🎮 **Playable Prototype:** \[Unity Sandbox Build – Coming Soon]
 📜 **NFT Explorer:** \[Polygon Testnet Placeholder]
-▶️ **Demo Video:** \[YouTube link – optional]
+▶️ ** Prototype:** \https://v0-genesis-chain-prototype.vercel.app/
 
 ---
 
